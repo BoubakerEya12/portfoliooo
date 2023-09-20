@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/IchrakHamdiResume.pdf";
+import pdf from "../../Assets/../Assets/Eyaresume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/ichrakhamdi/ichrakhamdi.github.io/main/src/Assets/IchrakHamdiResume.pdf";
+  "https://raw.githubusercontent.com/BoubakerEya12/portfoliooo/main/src/Assets/Eyaresume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -26,7 +26,20 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <div className="resume-container">
+            <Page
+                pageNumber={1}
+                width={width > 786 ? 650: 100} // Adjust the width as needed
+                height={width > 786 ?400 : 150} // Adjust the height as needed
+              />
+            </div>
+            <div className="resume-container">
+            <Page
+                pageNumber={2}
+                width={width > 786 ? 650 : 100} // Adjust the width as needed
+                height={width > 786 ? 400 : 150} // Adjust the height as needed
+              />
+            </div>
           </Document>
         </Row>
 

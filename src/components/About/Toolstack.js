@@ -6,7 +6,9 @@ import {
   SiPycharm,
   SiVisualstudiocode,
   SiWindows,
-  SiIntellijidea
+  SiIntellijidea,
+  SiAdobephotoshop,
+  SiAdobeillustrator
 } from "react-icons/si";
 
 
@@ -33,6 +35,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeillustrator />
       </Col>
     </Row>
   );
