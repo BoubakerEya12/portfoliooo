@@ -33,13 +33,6 @@ function ResumeNew() {
                 height={width > 786 ?400 : 150} // Adjust the height as needed
               />
             </div>
-            <div className="resume-container">
-            <Page
-                pageNumber={2}
-                width={width > 786 ? 650 : 100} // Adjust the width as needed
-                height={width > 786 ? 400 : 150} // Adjust the height as needed
-              />
-            </div>
           </Document>
         </Row>
 
