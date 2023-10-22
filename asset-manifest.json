@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfoliooo/static/css/main.884d1501.css",
-    "main.js": "/portfoliooo/static/js/main.e15e1df7.js",
+    "main.js": "/portfoliooo/static/js/main.1fd50941.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfoliooo/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfoliooo/static/js/787.1ed0c42c.chunk.js",
     "static/media/377679136___n.png": "/portfoliooo/static/media/377679136_1682404768924400_6875803359216567253_n.99d8532288528a33bdc0.png",
@@ -20,6 +20,7 @@
     "static/media/volunteer2.PNG": "/portfoliooo/static/media/volunteer2.13f7af292b6aa5c4b8fe.PNG",
     "static/media/connect-the-dots.PNG": "/portfoliooo/static/media/connect-the-dots.0a83e55c360bca7928ff.PNG",
     "static/media/me2.png": "/portfoliooo/static/media/me2.bd6ba8a55bf6432d9ab7.png",
+    "static/media/Eyaresume.pdf": "/portfoliooo/static/media/Eyaresume.1074fd245f9deb6fdf91.pdf",
     "static/media/me222.png": "/portfoliooo/static/media/me222.bbccbef50420e7d1e775.png",
     "static/media/leaf.png": "/portfoliooo/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/rubiks.png": "/portfoliooo/static/media/rubiks.932c65dec63510f63531.png",
@@ -27,26 +28,27 @@
     "static/media/emotion.png": "/portfoliooo/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/portfoliooo/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/IEEEcertificate.PNG": "/portfoliooo/static/media/IEEEcertificate.70ecb961f55682a076ac.PNG",
+    "static/media/hand.png": "/portfoliooo/static/media/hand.bc51c680c8a00084db7c.png",
     "static/media/codeEditor.png": "/portfoliooo/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/F2G.jpg": "/portfoliooo/static/media/F2G.5a7d7de798603eccd0be.jpg",
     "static/media/me.png": "/portfoliooo/static/media/me.1c03c20fbe46d11edfe8.png",
     "static/media/taquin.png": "/portfoliooo/static/media/taquin.e2bc5506ded0b9f1c67b.png",
     "static/media/blog.png": "/portfoliooo/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/Eyaresume.pdf": "/portfoliooo/static/media/Eyaresume.465267fd054dd3144284.pdf",
     "static/media/projet-ete-1.PNG": "/portfoliooo/static/media/projet-ete-1.f41100d80cf73683c8b6.PNG",
     "static/media/volun44.jpg": "/portfoliooo/static/media/volun44.9ef41826ef5408f5fee0.jpg",
     "static/media/chatify.png": "/portfoliooo/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/home-bg.jpg": "/portfoliooo/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/agg.png": "/portfoliooo/static/media/agg.919d243555932e33488f.png",
+    "static/media/driver.jpg": "/portfoliooo/static/media/driver.515d7e1791ce0bdf565c.jpg",
     "static/media/pre.svg": "/portfoliooo/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfoliooo/index.html",
     "main.884d1501.css.map": "/portfoliooo/static/css/main.884d1501.css.map",
-    "main.e15e1df7.js.map": "/portfoliooo/static/js/main.e15e1df7.js.map",
+    "main.1fd50941.js.map": "/portfoliooo/static/js/main.1fd50941.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfoliooo/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfoliooo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.884d1501.css",
-    "static/js/main.e15e1df7.js"
+    "static/js/main.1fd50941.js"
   ]
 }
