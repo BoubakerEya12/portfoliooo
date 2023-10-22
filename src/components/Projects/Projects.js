@@ -13,6 +13,10 @@ import rub from "../../Assets/rubiks.png";
 
 import web from "../../Assets/Projects/nb1.1.1.png"
 
+import SelfS from "../../Assets/Projects/driver.jpg"
+
+import HandS from "../../Assets/Projects/hand.png"
+
 import bitsOfCode from "../../Assets/Projects/connect-the-dots.PNG";
 import Poster from "./Posterresearch" // change
 function Projects() {
@@ -66,6 +70,24 @@ function Projects() {
               title="web platform (EMN AI)"
               description="Development of a web platform where users can create an account and enjoy free
               and easy access to AI features such as text generation, text translation, and summarization."
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HandS}
+              isBlog={false}
+              title="HAND DISTANCE MEASUREMENT GAME"
+              description="Interactive Python Game Measuring Distance Between Camera and User’s Hand"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SelfS}
+              isBlog={false}
+              title="SELF-PLAYING SIMULATION USING NVIDIA’S MODEL"
+              description="Developing a self-playing simulator in Python called ”Self-Playing Simulator”"
               
             />
           </Col>
